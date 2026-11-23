@@ -1,13 +1,13 @@
 # Rilo: Jungle Jumper — Support
 
-**Rilo: Jungle Jumper** is a free one-thumb arcade game for iPhone. Leap from
+**Rilo: Jungle Jumper** is a one-thumb arcade game for iPhone. Leap from
 totem to totem through a misty jungle — but every totem starts sinking the
 moment Rilo lands on it.
 
 - **Tap** for a quick hop
 - **Hold** for a soaring leap
 
-No ads. No in-app purchases. No accounts. Plays completely offline.
+Pay once. No ads, no in-app purchases, no subscriptions, no accounts. Plays completely offline.
 
 ---
 
