@@ -42,6 +42,18 @@
     border-radius:11px;text-decoration:none;
   }
   .contact:hover{filter:brightness(1.08)}
+  .dl{
+    display:inline-flex;align-items:center;gap:11px;
+    margin:26px 0 0;padding:15px 30px;
+    background:var(--accent);color:#0c2019;
+    font-weight:800;font-size:1.06rem;letter-spacing:-.01em;
+    border-radius:13px;text-decoration:none;
+    box-shadow:0 8px 24px rgba(126,217,87,.26);
+    transition:transform .14s ease, filter .14s ease;
+  }
+  .dl:hover{filter:brightness(1.08);transform:translateY(-1px)}
+  .dl svg{width:21px;height:21px;flex:none}
+  .price{color:var(--muted);font-size:.87rem;margin:11px 0 0}
   .moves{display:flex;gap:12px;flex-wrap:wrap;justify-content:center;margin:20px 0 0;padding:0;list-style:none}
   .moves li{background:var(--panel);border:1px solid var(--edge);border-radius:11px;padding:9px 16px;font-size:.93rem}
   .moves b{color:var(--accent)}
@@ -62,6 +74,12 @@
       <li><b>Tap</b> — quick hop</li>
       <li><b>Hold</b> — soaring leap</li>
     </ul>
+
+    <a class="dl" href="https://apps.apple.com/app/id6838510075">
+      <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M16.37 12.76c.02 2.42 2.12 3.23 2.15 3.24-.02.05-.34 1.16-1.12 2.3-.68.98-1.38 1.96-2.49 1.98-1.09.02-1.44-.65-2.68-.65-1.24 0-1.63.63-2.66.67-1.07.04-1.88-1.06-2.56-2.04-1.49-2.15-2.63-6.08-1.1-8.73.76-1.32 2.12-2.15 3.59-2.17 1.05-.02 2.04.71 2.68.71.64 0 1.84-.88 3.1-.75.53.02 2.02.19 2.97 1.59-.08.05-1.78 1.04-1.76 3.1M14.3 4.87c.57-.69.95-1.65.85-2.6-.84.03-1.85.56-2.44 1.25-.53.61-.99 1.59-.86 2.52.93.07 1.88-.48 2.45-1.17"/></svg>
+      Download on the App Store
+    </a>
+    <p class="price">$0.99 &middot; iPhone &middot; iOS 16 or later &middot; No ads, no in-app purchases</p>
   </header>
 
   <div class="card">
